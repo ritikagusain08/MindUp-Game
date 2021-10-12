@@ -1,0 +1,158 @@
+* {
+	font-family: Lato;
+}
+
+header {
+    background: whitesmoke;
+    padding: 20px;
+}
+
+header > h1 {
+    color: cornflowerblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image {
+    height: 10px;
+    background-size: cover;
+}
+
+.main-container {
+    align-items: center;
+}
+.upper-container {
+    text-align: center;
+    padding: 20px 30px;
+}
+.start {
+    background-color: cornflowerblue;
+    color: #FBFFFF;
+    border-radius: 100px;
+    font-size: 35px;
+    width: 250px;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.start:hover {
+    box-shadow: 0 5px 50px 0 #099FFF ;
+}
+.question-container {
+    background-color: cornflowerblue;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 37px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 100;
+
+}
+.timer{
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    font-size: 50px;
+    color: cornflowerblue;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.second-guess-button{
+    padding: 20px 30px;
+    margin: auto;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 200;
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: center;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.fifty-fifty{
+    padding: 20px 30px;
+    margin: 20px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 200;
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: center;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.help-buttons{
+    text-align: center;
+    padding: 20px 15px;
+}
+.points-container {
+    margin: auto;
+    font-size: 35px;
+    font-family: poppins;
+    font-style: bold;
+    font-weight: 700;
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+
+.answer-container{
+    border-style: 10px solid black;
+    padding: 5px 5px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.next-question {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 200;
+    width: 250px;
+    margin: 20px 100px 20px 500px;
+    border-style: solid ;
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+}
+
+.game-status-container {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.answers {
+}
+
+li {
+	cursor: pointer;
+}
